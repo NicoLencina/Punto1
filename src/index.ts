@@ -1,9 +1,9 @@
-let dimension: number = 0;
-let numerosAleatorios: number[] = new Array(dimension);
-let mayorOk: number;
+let dimensionDelArray: number = 0;
+let numerosAleatorios: number[] = new Array(dimensionDelArray);
+let numeroMayor: number;
 
 //carga numero aleatorios en el array
-function nAleatorios(dimension: number) {
+function cargoNumerosAleatorios(dimension: number) {
   for (let index = 0; index < dimension; index++) {
     numerosAleatorios[index] = Math.floor(Math.random() * 1000);
   }
